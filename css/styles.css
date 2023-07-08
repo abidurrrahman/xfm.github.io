@@ -1,0 +1,64 @@
+/*** GLOBAL ***************************************************/
+html {
+	width:100%;
+	height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+	background:#000000;
+	font-family:tahoma,arial,helvetica,'sans-serif';
+	font-size:10px;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+}
+/*** LINK *****************************************************/
+.link {
+	position:absolute;
+	top:0px;
+	right:0px;
+	padding:5px 10px 0px 0px;
+	font-weight:none;
+}
+.link-item:link,
+.link-item:active,
+.link-item:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+.link-item:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}
+/*** LOGO *****************************************************/
+.logo {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:600px;
+	height:300px;
+	margin-left:-300px;
+	margin-top:-150px;
+	padding:0px;
+	border:0px;
+}
+/*** CHART ****************************************************/
+.chart {
+	width:100%;
+	height:96%;
+	padding-top:20px;
+}
+#chartdiv {
+	width:100%;
+	height:96%;
+}
+/*** COPYRIGHT ************************************************/
+.copyright {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:10px;
+	color:#ffffff;
+	padding:0px 0px 5px 10px;
+}
