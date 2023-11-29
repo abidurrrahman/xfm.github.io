@@ -36,10 +36,10 @@ body {
 	position:absolute;
 	top:50%;
 	left:50%;
-	width:600px;
-	height:300px;
-	margin-left:-300px;
-	margin-top:-150px;
+	width:400px;
+	height:200px;
+	margin-left:-200px;
+	margin-top:-100px;
 	padding:0px;
 	border:0px;
 }
